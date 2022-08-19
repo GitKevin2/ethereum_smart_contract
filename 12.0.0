@@ -1,0 +1,75 @@
+
+> bufferutil@4.0.6 install D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\bufferutil
+> node-gyp-build
+
+
+> secp256k1@4.0.3 install D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\secp256k1
+> node-gyp-build || exit 0
+
+
+> utf-8-validate@5.0.9 install D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\utf-8-validate
+> node-gyp-build
+
+
+> keccak@3.0.2 install D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\keccak
+> node-gyp-build || exit 0
+
+
+> core-js-pure@3.23.4 postinstall D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js:[0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://patreon.com/zloirock [0m
+[96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> es5-ext@0.10.61 postinstall D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\es5-ext
+>  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+
+
+> web3-shh@1.7.4 postinstall D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\web3-shh
+> echo "WARNING: the web3-shh api will be deprecated in the next version"
+
+"WARNING: the web3-shh api will be deprecated in the next version"
+
+> web3-bzz@1.7.4 postinstall D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\web3-bzz
+> echo "WARNING: the web3-bzz api will be deprecated in the next version"
+
+"WARNING: the web3-bzz api will be deprecated in the next version"
+
+> web3@1.7.4 postinstall D:\kevin\Projects\smart-contracts\hardhat\nft-multisig-2\node_modules\web3
+> echo "WARNING: the web3-shh and web3-bzz api will be deprecated in the next version"
+
+"WARNING: the web3-shh and web3-bzz api will be deprecated in the next version"
++ hardhat@2.10.0
++ ts-node@10.8.2
++ typechain@8.1.0
++ ethers@5.6.9
++ @types/node@18.0.3
++ typescript@4.7.4
++ chai@4.3.6
++ @typechain/hardhat@6.1.2
++ @nomiclabs/hardhat-ethers@2.1.0
++ @typechain/ethers-v5@10.1.0
++ @types/mocha@9.1.1
++ @types/chai@4.3.1
++ @nomicfoundation/hardhat-network-helpers@1.0.2
++ @nomicfoundation/hardhat-toolbox@1.0.2
++ solidity-coverage@0.7.21
++ hardhat-gas-reporter@1.0.8
++ @nomiclabs/hardhat-etherscan@3.1.0
++ @ethersproject/abi@5.6.4
++ @nomicfoundation/hardhat-chai-matchers@1.0.1
++ @ethersproject/providers@5.6.8
+added 868 packages from 687 contributors and audited 873 packages in 261.678s
+
+118 packages are looking for funding
+  run `npm fund` for details
+
+found 4 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
